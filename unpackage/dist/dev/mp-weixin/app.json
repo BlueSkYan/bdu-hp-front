@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/help/help",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/mine/mine",
+    "pages/xuqiu/xuqiu",
+    "pages/xuqiu/xuqiu_detail/xuqiu_detail",
+    "pages/mine/user_info/user_info",
+    "pages/mine/earnings/earnings",
+    "pages/xuqiu/my_xuqiu_detail/my_xuqiu_detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "保院互助",
+    "navigationBarBackgroundColor": "#7BB6F1",
+    "backgroundColor": "#F8F8F8",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "selectedColor": "#7BB6F1",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icon/home.png",
+        "selectedIconPath": "static/icon/home-a.png"
+      },
+      {
+        "text": "需求",
+        "pagePath": "pages/help/help",
+        "iconPath": "static/icon/help.png",
+        "selectedIconPath": "static/icon/help-a.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/mine/mine",
+        "iconPath": "static/icon/mine.png",
+        "selectedIconPath": "static/icon/mine-a.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

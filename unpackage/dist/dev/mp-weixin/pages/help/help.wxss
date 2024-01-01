@@ -1,0 +1,32 @@
+
+.ct_tab {
+	height: 50px;
+	display: flex;
+	width: 750rpx;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	/* margin-bottom: 50px; */
+}
+.ct_item {
+	/* border: solid; */
+	border-bottom: 2px gray solid;
+	height: 100%;
+	width: 50%;
+	/* background: yellow; */
+	justify-content: space-around;
+	text-align: center;
+	line-height: 50px;
+	/* border-radius: 10px; */
+	background: #fff;
+}
+.ct_item:nth-child(1) {
+	border-right: 2px gray solid;
+}
+.ct_active {
+	color: #fff;
+	background: #007AFF;
+	/* border-bottom: 2px #007AFF solid */
+}
+

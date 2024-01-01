@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "需求",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+    "uni-fab": "/uni_modules/uni-fab/components/uni-fab/uni-fab"
+  }
+}
